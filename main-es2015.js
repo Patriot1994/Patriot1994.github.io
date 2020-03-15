@@ -479,7 +479,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const httpOptions = {
     headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
-        'Access-Control-Allow-Origin': 'https://patriot1994.github.io/portfolio/',
+        'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Methods': 'GET,POST'
     })
 };

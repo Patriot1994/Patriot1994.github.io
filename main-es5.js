@@ -515,7 +515,7 @@
             /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
             var httpOptions = {
                 headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
-                    'Access-Control-Allow-Origin': 'https://patriot1994.github.io/portfolio/',
+                    'Access-Control-Allow-Origin': '*',
                     'Access-Control-Allow-Methods': 'GET,POST'
                 })
             };
