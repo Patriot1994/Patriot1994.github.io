@@ -489,7 +489,7 @@ let CalculatorService = class CalculatorService {
         this.calculatorUrl = 'https://newcalculatorapp.herokuapp.com/calculator'; //http://localhost:8080
     }
     getResult(value) {
-        return this.http.get(`${this.calculatorUrl}?equations=${value}`);
+        return this.http.get(`${this.calculatorUrl}?equations=${value}`, httpOptions);
     }
 };
 CalculatorService.ctorParameters = () => [

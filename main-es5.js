@@ -525,7 +525,7 @@
                     this.calculatorUrl = 'https://newcalculatorapp.herokuapp.com/calculator'; //http://localhost:8080
                 }
                 CalculatorService.prototype.getResult = function (value) {
-                    return this.http.get(this.calculatorUrl + "?equations=" + value);
+                    return this.http.get(this.calculatorUrl + "?equations=" + value, httpOptions);
                 };
                 return CalculatorService;
             }());
