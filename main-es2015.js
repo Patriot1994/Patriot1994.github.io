@@ -486,7 +486,7 @@ const httpOptions = {
 let CalculatorService = class CalculatorService {
     constructor(http) {
         this.http = http;
-        this.calculatorUrl = 'https://newcalculatorapp.herokuapp.com/calculator'; //http://localhost:8080
+        this.calculatorUrl = 'https://cors-anywhere.herokuapp.com/https://newcalculatorapp.herokuapp.com/calculator'; //http://localhost:8080
     }
     getResult(value) {
         return this.http.get(`${this.calculatorUrl}?equations=${value}`, httpOptions);

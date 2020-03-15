@@ -522,7 +522,7 @@
             var CalculatorService = /** @class */ (function () {
                 function CalculatorService(http) {
                     this.http = http;
-                    this.calculatorUrl = 'https://newcalculatorapp.herokuapp.com/calculator'; //http://localhost:8080
+                    this.calculatorUrl = 'https://cors-anywhere.herokuapp.com/https://newcalculatorapp.herokuapp.com/calculator'; //http://localhost:8080
                 }
                 CalculatorService.prototype.getResult = function (value) {
                     return this.http.get(this.calculatorUrl + "?equations=" + value, httpOptions);
